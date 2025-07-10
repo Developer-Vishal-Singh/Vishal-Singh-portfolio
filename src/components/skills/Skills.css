@@ -1,5 +1,5 @@
 .skill {
-    margin-top: 8rem;
+    margin-top: 9rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -90,6 +90,7 @@
 
 
 
+/* Media Query */
 
 
 @media screen and (max-width:992px) {
@@ -116,4 +117,16 @@
     .skill-title {
         margin-bottom: 20px;
     }
+}
+
+@media screen and (max-width:364px) {
+    .skill-content {
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .skill-contents {
+        margin: 0;
+    }
+
 }

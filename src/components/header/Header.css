@@ -59,6 +59,8 @@ header {
 
 
 
+/* Media Query */
+
 @media screen and (max-width:425px) {
     .header-bottom-icon {
         display: none;
@@ -68,8 +70,7 @@ header {
         display: none;
     }
 
-    .header-bottom img {
-        width: 250px;
-        margin-left: 45px;
+    .header-bottom {
+        justify-content: center;
     }
 }

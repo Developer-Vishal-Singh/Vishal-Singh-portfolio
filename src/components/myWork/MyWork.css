@@ -81,9 +81,7 @@
 
 
 
-
-
-
+/* Media Query */
 
 @media screen and (max-width:992px) {
     .mywork-section {
@@ -127,4 +125,12 @@
     .mywork-section-project img {
         width: 90%;
     }
+}
+
+@media screen and (max-width:363px) {
+    .mywork-section-project .btn {
+        margin-inline: 5px;
+        text-align: center;
+    }
+
 }
