@@ -1,0 +1,164 @@
+.contact {
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.contact-title h5 {
+    color: #ffffff99;
+}
+
+.contact-title h2 {
+    color: #4DB5ff;
+}
+
+
+
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-inline: 120px;
+}
+
+.contact-content-left .contact-card {
+    text-align: center;
+    margin-inline: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #2C2C6C;
+    border-radius: 15px;
+    padding-block: 20px;
+    padding-inline: 70px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.contact-content-left .contact-card:hover {
+    background: transparent;
+    border-color: #4DB5ff;
+    transition: var(--transition);
+}
+
+.contact-card span {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-top: 5px;
+
+}
+
+.contact-card h4,
+h5 {
+    color: white;
+}
+
+.contact-card a {
+    color: #4DB5ff;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-content-right {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content-right input {
+    width: 90%;
+    background: transparent;
+    border: 2px solid #4DB5ff;
+    padding: 24px;
+    margin-block: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.contact-content-right textarea {
+    width: 90%;
+    background: transparent;
+    border: 2px solid #4DB5ff;
+    margin-block: 20px;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.contact-content-right button {
+    display: flex;
+    /* align-items: start; */
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .contact-content-left {
+        margin: 10px auto;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .contact-content {
+        margin-inline: auto;
+    }
+
+    .contact-content {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .contact-content-left {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+@media screen and (max-width:425px) {
+    .contact-content {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-card {
+        margin-inline: 10px;
+        padding-block: 20px;
+        padding-inline: 30px;
+    }
+
+    .contact-content-right button {
+        margin-left: 15px;
+    }
+}

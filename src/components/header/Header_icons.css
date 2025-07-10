@@ -1,0 +1,20 @@
+.icons {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons .icon {
+    font-size: 24px;
+    color: #4DB5ff;
+}
+
+
+.icons .icon:hover {
+    color: white;
+    transition: var(--transition);
+}
