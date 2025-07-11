@@ -8,7 +8,7 @@
 
 
 
-.footer a {
+.footer .footer-name {
     color: #1F1F38;
     font-size: 2rem;
     font-weight: 500;
@@ -32,6 +32,7 @@
 
 
 .footer li {
+    color: #1F1F38;
     font-size: smaller;
     cursor: pointer;
 }
@@ -43,28 +44,28 @@
 
 
 
-
-
-
-.footer-icon span {
+.footer-icon a {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    margin-top: 5px;
+    margin-inline: 10px;
+    padding-inline: 10px;
+    text-align: center;
+    padding-top: 5px;
     background-color: #1F1F38;
     color: white;
     border-radius: 10px;
-    margin-inline: 10px;
-    padding-top: 10px;
-    cursor: pointer;
+    font-size: 20px;
     border: 1px solid transparent;
 }
 
-.footer-icon span:hover {
-    background: transparent;
-    border-color: #1F1F38;
-    transition: var(--transition);
+.footer-icon a:hover {
+    background-color: #4DB5FF;
     color: #1F1F38;
+    border-color: #1F1F38;
 }
+
+
+
 
 
 

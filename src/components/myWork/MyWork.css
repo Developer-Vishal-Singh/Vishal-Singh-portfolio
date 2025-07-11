@@ -75,6 +75,22 @@
     margin-inline: 6px;
 }
 
+.btn-light a {
+    color: #4DB5ff;
+}
+
+.btn-light:hover {
+    a {
+        color: #2C2C6C;
+    }
+}
+
+
+.btn-dark a {
+    color: #2C2C6C;
+}
+
+
 
 
 

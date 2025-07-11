@@ -8,8 +8,8 @@ import './Header_icons.css'
 const Header_icons = () => {
     return (
         <div className='icons'>
-            <CiLinkedin className='icon' />
-            <FaGithub className='icon' />
+            <a href="https://www.linkedin.com/in/vishal-singh-054a87190/"><CiLinkedin className='icon' /></a>
+            <a href="https://github.com/Developer-Vishal-Singh"><FaGithub className='icon' /></a>
             <FaInstagram className='icon' />
             <CiTwitter className='icon' />
         </div>

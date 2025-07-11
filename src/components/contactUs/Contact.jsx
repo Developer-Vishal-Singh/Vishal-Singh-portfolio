@@ -19,20 +19,20 @@ const Contact = () => {
                     <div className='contact-card'>
                         <span><MdOutlineMail /></span>
                         <h4>Email</h4>
-                        <h5>DemoVishal@gmail.com</h5>
-                        <a href="">Send a message</a>
+                        <h5>vishalCodeOne@gmail.com</h5>
+                        <a href="mailto:vishalcodeone@gmail.com">Send a message</a>
                     </div>
                     <div className='contact-card'>
                         <span><FaWhatsapp /></span>
                         <h4>Whatsapp</h4>
-                        <h5>+91 9876543212</h5>
-                        <a href="">Call</a>
+                        <h5>+91 9990628212</h5>
+                        <a href="https://wa.me/9990628212">Connect</a>
                     </div>
                     <div className='contact-card'>
                         <span><CiLinkedin /></span>
                         <h4>Linkendin</h4>
-                        <h5>demo-Singh-4567</h5>
-                        <a href="">Connect</a>
+                        <h5>vishal-singh-054a87190</h5>
+                        <a href="https://www.linkedin.com/in/vishal-singh-054a87190/">Connect</a>
                     </div>
                 </div>
 

@@ -12,7 +12,7 @@ const Education = () => {
             <div className='education-content'>
                 <div className='education-content-card'>
                     <h3>Bachelor's of Computer Application</h3>
-                    <p>IGNOU, Delhi</p>
+                    <p>Indira Gandhi National Open University, Delhi</p>
                 </div>
                 <div className='education-content-card'>
                     <h3>Senior Secondary School</h3>

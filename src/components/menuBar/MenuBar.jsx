@@ -16,10 +16,11 @@ const MenuBar = () => {
 
             <div className='menubar'>
                 <a className={menu === 'home' ? 'active' : " "} onClick={() => setMenu("home")} href="#"><IoHomeOutline /></a>
-                <a className={menu === 'about' ? 'active' : " "} onClick={() => setMenu("about")} href="#about"><MdOutlineRoundaboutRight /></a>
-                <a className={menu === 'skill' ? 'active' : " "} onClick={() => setMenu("skill")} href="#skill"><GiSkills /></a>
-                <a className={menu === 'education' ? 'active' : " "} onClick={() => setMenu("education")} href="#education"><MdCastForEducation /></a>
                 <a className={menu === 'contact' ? 'active' : " "} onClick={() => setMenu("contact")} href="#contact"><MdOutlineContactPhone /></a>
+                <a className={menu === 'education' ? 'active' : " "} onClick={() => setMenu("education")} href="#education"><MdCastForEducation /></a>
+                <a className={menu === 'skill' ? 'active' : " "} onClick={() => setMenu("skill")} href="#skill"><GiSkills /></a>
+                <a className={menu === 'about' ? 'active' : " "} onClick={() => setMenu("about")} href="#about"><MdOutlineRoundaboutRight /></a>
+
             </div>
 
         </div>

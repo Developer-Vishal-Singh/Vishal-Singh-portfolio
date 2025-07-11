@@ -10,18 +10,50 @@ import portfolio6 from '../../assets/Todo_Jquery.png'
 const MyWork = () => {
 
     const projectsData = [
-        { id: 1, title: "SocioPedia", technology: "React.js | Node.js | Express.js | MongoDB | Redux | Material UI" },
-        { id: 2, title: "CarHub", technology: "Next.js | React.js | TypeScript | Tailwind CSS | Rapid API | Headless UI" },
-        { id: 3, title: "GPT Mapper", technology: "React.js | Node.js | Chart.js | Puppeeter | ChatGPT API" },
-        { id: 4, title: "Portfolio", technology: "React.js | HTML | CSS" },
-        { id: 5, title: "My Finance Friend", technology: "HTML | CSS | JavaScript" },
-        { id: 6, title: "Travel Guide", technology: "React.js | HTML | CSS" }
+        {
+            id: 1,
+            image: portfolio1,
+            github: "https://github.com/Developer-Vishal-Singh/Car_Rental",
+            title: "LUXURY CAR RENTAL BOOKING",
+            technology: "React.js | Node.js | Express.js | MongoDB | Tailwind CSS | ImageKit Storage"
+        },
+        {
+            id: 2,
+            image: portfolio2,
+            github: "https://github.com/Developer-Vishal-Singh/Food_Delivery_App",
+            title: "Online FOOD ORDERING",
+            technology: "React.js | Node.js | Express.js | MongoDB | Stripe Payment Gateway"
+        },
+        {
+            id: 3,
+            image: portfolio3,
+            github: "https://github.com/Developer-Vishal-Singh/Google-Gemini-Clone",
+            title: "Google-Gemini", technology: "React.js | CSS | Google-Gemini API"
+        },
+        {
+            id: 4,
+            image: portfolio4,
+            github: "https://github.com/Developer-Vishal-Singh/Vishal-Singh-portfolio",
+            title: "Portfolio", technology: "React.js | CSS | Motion "
+        },
+        {
+            id: 5,
+            image: portfolio5,
+            github: "https://github.com/Developer-Vishal-Singh/Weather-app",
+            title: "Weather Informations",
+            technology: "HTML | CSS | JavaScript | Weather API"
+        },
+        {
+            id: 6,
+            image: portfolio6,
+            github: "https://github.com/Developer-Vishal-Singh/Todo-JQuery",
+            title: "Todo List",
+            technology: "HTML | CSS | jQuery"
+        }
     ]
 
-    const image = [portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6]
-
     return (
-        <div className='mywork'>
+        <div className='mywork' id='mywork'>
             <div className='mywork-title'>
                 <h5>My Recent Work</h5>
                 <h2>Portfolio</h2>
@@ -30,12 +62,12 @@ const MyWork = () => {
             <div className='mywork-section'>
                 {projectsData.map((project, index) => (
                     <div key={index} className='mywork-section-project'>
-                        <img src={image[index]} alt="" />
+                        <img src={project.image} alt="" />
                         <h3>{project.title}</h3>
                         <p>{project.technology}</p>
                         <div className='btn'>
-                            <button className='btn-light'>Github</button>
-                            <button className='btn-dark'>Live Demo</button>
+                            <a href={project.github}><button className='btn-light'>Github </button></a>
+                            <a href={project.github}><button className='btn-dark'>Live Demo </button></a>
                         </div>
                     </div>
                 ))}

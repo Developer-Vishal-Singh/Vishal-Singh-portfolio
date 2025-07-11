@@ -15,7 +15,7 @@ const Header = () => {
 
             <div className='header-btn'>
                 <button className='btn-light'>Download CV</button>
-                <button className='btn-dark'>Let's talk</button>
+                <a href="#contact"><button className='btn-dark'>Let's talk</button></a>
             </div>
 
             <div className='header-bottom'>

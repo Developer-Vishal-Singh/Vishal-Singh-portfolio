@@ -27,14 +27,15 @@ const About = () => {
 
                 <div className='about-content-bottom'>
                     <div className='about-paragraph'>
-                        <p>I'm Vishal, currently working as an SDE at Hopstack. I graduated in 2024 with a B.Tech in Information Technology
-                            from Guru Gobind Singh Indraprastha University. I am an active learner who believes in the value of technology and teamwork.
-                            I am skilled in C++, Data Structures, and Algorithms, and MERN stack. Looking forward to great opportunities to learn new technologies ,
+                        <p>I'm Vishal, A motivated Full Stack Developer with expertise in the MERN Stack (MongoDB, Express.js, React, Node.js).
+                            Proven ability to design, develop, and deploy robust and scalable web applications. Passionate about creating intuitive user experiences.
+                            I am an active learner who believes in the value of technology and teamwork.
+                            I am skilled in Basic Data Structures and Algorithms. Looking forward to great opportunities to learn new technologies ,
                             skills and willing to work under pressure on projects and deadline with the given time limit or target.</p>
                     </div>
 
                     <div>
-                        <button className='btn-dark'>Let's Talk</button>
+                        <a href="#contact"><button className='btn-dark'>Let's Talk</button></a>
                     </div>
                 </div>
 

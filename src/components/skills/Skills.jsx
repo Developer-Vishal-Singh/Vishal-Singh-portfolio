@@ -12,16 +12,16 @@ const Skills = () => {
         { id: 3, title: "Javascript", content: "Intermediate" },
         { id: 4, title: "Bootstrap", content: "Intermediate" },
         { id: 5, title: "ReactJs", content: "Intermediate" },
-        { id: 6, title: "NextJS", content: "Intermediate" },
-        { id: 7, title: "Tailwind CSS", content: "Intermediate" },
-        { id: 8, title: "Material UI", content: "Intermediate" }
+        { id: 6, title: "jQuery", content: "Intermediate" },
+        { id: 7, title: "Tailwind CSS", content: "Intermediate" }
+        // { id: 8, title: "REST ", content: "Intermediate" }
     ]
 
     const skillBackend = [
         { id: 1, title: "NodeJs", content: "Intermediate" },
         { id: 2, title: "MongoDB", content: "Intermediate" },
         { id: 3, title: "ExpressJS", content: "Intermediate" },
-        { id: 4, title: "TypeScript", content: "Intermediate" },
+        { id: 4, title: "SQL", content: "Intermediate" },
         { id: 5, title: "Postman", content: "Intermediate" },
         { id: 6, title: "Git-Github", content: "Intermediate" }
     ]

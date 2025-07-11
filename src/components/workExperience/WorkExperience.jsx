@@ -3,10 +3,10 @@ import './WorkExperience.css'
 
 const WorkExperience = () => {
     return (
-        <div className='experience'>
+        <div className='experience' id='experience'>
 
             <div className='experience-title'>
-                <h2>Work Experience</h2>
+                <h2>Work Experience [Democ]</h2>
             </div>
 
             <div className='experience-sections'>
@@ -14,7 +14,7 @@ const WorkExperience = () => {
                 <div className='experience-section'>
                     <div className='dot'></div>
                     <h3>Software Development Engineer</h3>
-                    <p>Hopstack</p>
+                    <p>Hopstack </p>
                     <h6>July 2024 - Present</h6>
                     <div className='experience-section-content'>
                         <section>• Bundling Summary Screen: Designed a user-friendly interface to display bundling
