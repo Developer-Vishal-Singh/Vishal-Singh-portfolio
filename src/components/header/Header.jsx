@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import avatar2 from '../../assets/avatar2.jpg'
+import vishal from '../../assets/Vishal.pdf'
 import Header_icons from './Header_icons'
 
 
@@ -14,7 +15,7 @@ const Header = () => {
             </div>
 
             <div className='header-btn'>
-                <button className='btn-light'>Download CV</button>
+                <a href={vishal} download target="_blank"><button className='btn-light'>Download CV</button></a>
                 <a href="#contact"><button className='btn-dark'>Let's talk</button></a>
             </div>
 
